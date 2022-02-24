@@ -1,1 +1,7 @@
+Found bug with custom wordlist from robots.txt cc @remonsec 
 
+step 1-
+httpx -l urls.txt -paths /robots.txt -silent -o robots-url.txt
+
+step 2- 
+for url in $(cat robots-url.txt);do http -b $url | grep 'Disallow' | awk -F ' ' '{print $2}' | cut -c 2- | anew robot-words.txt;done
