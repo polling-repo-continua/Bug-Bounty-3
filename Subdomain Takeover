@@ -1,0 +1,4 @@
+Subdomain Takeover Using Amass + SubJack
+
+$ amass enum -norecursive -noalts -d {target_domain} > {target_domain}.txt ; subjack -w {target_domain}.txt -t 100 -timeout 30 -ssl -c ~/subjack/fingerprints.json -v 3
+
